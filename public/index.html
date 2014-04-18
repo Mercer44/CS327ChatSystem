@@ -4,7 +4,6 @@
 	<head>
 		<title>Mercer Chat</title>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
 		<link href="/styles/animate.css" rel="stylesheet" type="text/css" />
 		<link href="/styles/style.css" rel="stylesheet" type="text/css" />
@@ -19,22 +18,17 @@
 			<div class="pr center wrapper">
 				<div class="cf pr chat animate">
 					<div class="pa chat-shadow">
-						<div class="content animate bounceInDown">Click <div class="big-button-green">Start</div> to begin...</div>
+						<div class="content animate bounceInDown">Welcome to <div class="big-button-green start">MercerChat</div></div>
 					</div>
 					<div class="cf chat-top">
 						<div class="fl chat-left">
-							<div class="chat-messages">
-								<ul></ul>
-							</div>
-						</div>
-						<div class="fl chat-right">
-							<div class="chat-clients">
+							<div class="fl chat-clients">
 								<div class="cf title">
 									<div class="fl">Users</div>
 								</div>
 								<ul></ul>
 							</div>
-							<div class="chat-rooms">
+							<div class="fl chat-rooms">
 								<div class="cf title">
 									<div class="fl">Rooms</div>
 									<div class="fr title-button">+</div>
@@ -42,13 +36,18 @@
 								<ul class="pr"></ul>
 							</div>
 						</div>
+						<div class="fl chat-right">
+							<div class="chat-messages">
+								<ul></ul>
+							</div>
+						</div>
 					</div>
 					<div class="cf chat-bottom">
-						<div class="fl chat-input">
-							<input type="text" placeholder="enter chat..." />
-						</div>
 						<div class="fl chat-submit">
 							<button>Send &rarr;</button>
+						</div>
+						<div class="fl chat-input">
+							<input type="text" placeholder="enter chat..." />
 						</div>
 					</div>
 				</div>
@@ -58,14 +57,12 @@
 						<img alt="github" class="git-icon" src="/images/github.png" /><br/><br/>
 						Get the code for this project from <a href="https://github.com/Mercer44/CS327ChatSytem" target="_blank">github</a>
 					</div>
-
-					
 				</div>
 			</div>
 			
 		</div>
 		
-		<aside id="nickname-popup" class="popup animate avgrund-popup start">
+		<aside id="nickname-popup" class="popup animate avgrund-popup">
 			<div class="title">Enter a screenname</div>
 			<div class="input"><input type="text" maxlength="15" placeholder="name..." /></div>
 			<div class="big-button-green small begin">&mdash; Begin &mdash;</div>
