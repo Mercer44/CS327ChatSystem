@@ -87,7 +87,7 @@ iframe{text-align:center !important;}
 	padding:5px 20px;
 	display:inline-block;
 	font-weight:bold;
-	border: 1px solid #000000;
+	border: 1px solid #ffffff;
 	font-size: 28px;
 	color: #ffffff !important;
 	background-color: #000000;
@@ -175,10 +175,10 @@ background: #000000;
 
 .chat-messages ul{margin:0;padding:0;list-style-type:none;list-style-position:outside;border: 1px solid #ffffff;}
 .chat-messages ul li{padding:10px;border-bottom:dotted 1px #eee;margin-left:7px}
-.chat-messages ul li .sender{font-size:20px;font-weight:bold;margin-right:7px;}
+.chat-messages ul li .sender{font-size:20px;font-weight:bold;margin-right:7px;color:#39a64e;}
 .chat-messages ul li .text{font-size:20px;color:#4d4d4d;}
 .chat-messages ul li .time{color:#ccc;font-size:12px;} 
-.chat-messages ul li.marker .sender{color:#39a64e;}
+.chat-messages ul li.marker .sender{color:#ffffff;}
 
 .popup{}
 .popup .title{font-size:24px;}
